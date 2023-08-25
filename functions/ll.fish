@@ -1,4 +1,3 @@
-# Defined in /tmp/fish.b48SEm/ll.fish @ line 2
-function ll --description 'List contents of directory using long format'
-	exa -lh --group-directories-first $argv
+function ll --wraps=exa
+  exa --icons --group-directories-first --git -l $argv
 end

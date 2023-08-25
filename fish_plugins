@@ -1,0 +1,24 @@
+# Easily browse through environment, directory contents etc to fill a command
+    PatrickF1/fzf.fish
+
+# Automatically close brackets, parenthesis etc...
+    jorgebucaran/autopair.fish
+
+# Quickly jump to directories by fuzzy matching their names
+    jethrokuan/z
+
+# Nice and flexible shorthands for exa
+    gazorby/fish-exa
+
+# Node Version Manager
+    #jorgebucaran/nvm.fish
+
+# Handy wrappers around git to accelerate your workflow
+    joseluisq/gitnow
+
+# Execute bash stuff and import the environment changes
+    edc/bass
+    #jorgebucaran/replay.fish
+    #oh-my-fish/plugin-foreign-env
+
+# vi:ft=fish

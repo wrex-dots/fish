@@ -1,4 +1,3 @@
-# Defined in - @ line 1
-function please --description 'Ask your computer nicely.'
+function please --description 'Ask your computer nicely.' --wraps 'sudo'
 	sudo $argv
 end

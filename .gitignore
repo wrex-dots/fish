@@ -1,3 +1,8 @@
+# Don't push the env cache (pretty sensible file)
 fish_variables
-fisher.fish
-*gitnow*
+
+# Don't push remote plugins
+fundle/
+
+# Prefer letting the conf download the latest version
+functions/fundle.fish
