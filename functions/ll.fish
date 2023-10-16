@@ -1,3 +1,3 @@
-function ll --wraps=exa
-  exa --icons --group-directories-first --git -l $argv
+function ll --wraps eza
+  eza --icons --group-directories-first --git -l $argv
 end

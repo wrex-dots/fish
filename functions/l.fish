@@ -1,4 +1,4 @@
-function l --wraps exa
-  exa --icons --group-directories-first --git $argv
+function l --wraps eza
+  eza --icons --group-directories-first --git $argv
 end
 

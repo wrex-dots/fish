@@ -55,6 +55,7 @@
 
 
 # Perl Local::Lib
+# I don't remember why this is in my config, but I don't see a reason to remove it. 🤷
 if command -v perl > /dev/null 2>&1 && command -v cpanm > /dev/null 2>&1
   test -d "$HOME/perl5/lib/perl5" && eval (perl -I "$HOME/perl5/lib/perl5" -Mlocal::lib)
 end
