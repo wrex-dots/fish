@@ -32,7 +32,7 @@ if not fundle init >/dev/null
     set_color brgreen
       echo "Populating your plugin directory ($fish_plugin_dir)..."
     set_color normal
-      fundle install --no-quiet
+    fundle install --no-quiet
     set_color brgreen
       echo "Done !"
     set_color normal

@@ -10,7 +10,7 @@
 # Nice and flexible shorthands for exa
     gazorby/fish-exa
 
-# Node Version Manager
+# Node Version Manager (disabled because FNM is better: https://github.com/Schniz/fnm)
     #jorgebucaran/nvm.fish
 
 # Handy wrappers around git to accelerate your workflow
@@ -20,5 +20,8 @@
     edc/bass
     #jorgebucaran/replay.fish
     #oh-my-fish/plugin-foreign-env
+
+# Docker command completions
+    ankitsumitg/docker-fish-completions
 
 # vi:ft=fish
