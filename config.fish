@@ -1,5 +1,5 @@
-## For setting $PATH, check $fish_config/conf.d/00-path.fish
-## For other environment variables, see $fish_config/conf.d/02-env.fish
+## For setting $PATH, check $__fish_config_dir/conf.d/01-path.fish
+## For other environment variables, see $__fish_config_dir/conf.d/02-env.fish
 
 # Autostart
     # Terminal themeing based on current wallpaper
