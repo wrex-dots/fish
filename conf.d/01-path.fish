@@ -13,3 +13,6 @@ addpath "$PNPM_HOME"
 
 addpath /opt/android-sdk/cmdline-tools/latest
 addpath /opt/android-sdk/platform-tools/
+
+addpath /var/lib/flatpak/exports/share
+addpath /home/wrexes/.local/share/flatpak/exports/share

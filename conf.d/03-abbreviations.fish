@@ -1,4 +1,4 @@
-set -Ux fish_abbreviations (status --current-filename)
+set -gx fish_abbreviations (status --current-filename)
 
 if not set -q EDITOR
   command -q nvim     && set EDITOR nvim
@@ -53,15 +53,16 @@ abbr -a start 'sudo systemctl start'
 abbr -a stop 'sudo systemctl stop'
 
 abbr -a vi 'nvim'
-abbr -a . '$EDITOR .'
+abbr -a . '$EDITOR'
 
 abbr -a xopen 'xdg-open'
 
 abbr -a xtar 'tar -xvf'
 abbr -a xztar 'tar -xzvf'
 
-abbr -a ytdl 'yt-dlp -o "%(title)s.%(ext)s"'
-abbr -a ytwav 'yt-dlp -o "%(title)s.%(ext)s" --format bestaudio -x --audio-format wav'
-abbr -a yttmp 'yt-dlp -o (mktemp -u)".%(ext)s"'
+abbr -a dl 'yt-dlp -o "%(title)s.%(ext)s"'
+abbr -a dl:discord 'yt-dlp -o "%(title)s.%(ext)s" -S vcodec:h264 -S acodec:aac'
+abbr -a dl:tmp 'yt-dlp -o (mktemp -u)".%(ext)s"'
+abbr -a dl:wav 'yt-dlp -o "%(title)s.%(ext)s" --format bestaudio -x --audio-format wav'
 
 abbr -a zat 'zaread'

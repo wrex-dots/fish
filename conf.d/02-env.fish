@@ -23,3 +23,7 @@ set -gx GPG_TTY (tty)
 
 # Local PNPM installation dir
 set -gx PNPM_HOME "$HOME/.local/share/pnpm"
+
+# For Android dev
+test -d /opt/android-sdk
+  and set -gx ANDROID_HOME /opt/android-sdk
