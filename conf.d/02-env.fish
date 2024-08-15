@@ -23,3 +23,7 @@ set -gx PNPM_HOME "$HOME/.local/share/pnpm"
 # For Android dev
 test -d /opt/android-sdk
   and set -gx ANDROID_HOME /opt/android-sdk
+
+function __set_cmake_parallel --on-event fish_preexec
+  set -gx CMAKE_BUILD_PARALLEL_LEVEL (nproc)
+end
