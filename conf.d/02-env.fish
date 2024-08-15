@@ -7,10 +7,6 @@ abbr -a fishenv $EDITOR (status -f)
 ########################################
 ##          ENV SETTINGS              ##
 ########################################
-# Things set here are the things that can't be set through Hyprland's configs.
-# This is mostly the case when they use command substitution and cannot be
-# written in a fixed string.
-
 # If you use (Neo)Vim, well first of all you're a good person,
 # but also use it as a diff program.
 if string match -q -- nvim $EDITOR
