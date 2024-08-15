@@ -67,5 +67,3 @@ abbr -a dl 'yt-dlp -o "%(title)s.%(ext)s"'
 abbr -a dl:discord 'yt-dlp -o /tmp/"%(title)s.%(ext)s" -S vcodec:h264 -S acodec:aac'
 abbr -a dl:tmp 'yt-dlp -o (mktemp -u)".%(ext)s"'
 abbr -a dl:wav 'yt-dlp -o "%(title)s.%(ext)s" --format bestaudio -x --audio-format wav'
-
-abbr -a zat 'zaread'
