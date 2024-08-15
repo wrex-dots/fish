@@ -27,3 +27,7 @@ test -d /opt/android-sdk
 function __set_cmake_parallel --on-event fish_preexec
   set -gx CMAKE_BUILD_PARALLEL_LEVEL (nproc)
 end
+
+command -q vcpkg
+  and set -gx VCPKG_ROOT ~/.local/share/vcpkg
+
