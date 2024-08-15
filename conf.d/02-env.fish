@@ -31,3 +31,5 @@ end
 command -q vcpkg
   and set -gx VCPKG_ROOT ~/.local/share/vcpkg
 
+command -q lxqt-openssh-askpass
+  and set -gx SSH_ASKPASS (command -v lxqt-openssh-askpass)
