@@ -5,10 +5,11 @@ if not set -q EDITOR
   or command -q vim   && set EDITOR vim
   or command -q vi    && set EDITOR vi
   or command -q nano  && set EDITOR nano
-  or command -q emacs && set EDITOR emacs
-  and function fishabbr --description 'Edit your Fish abbreviations file' --wraps $EDITOR
-    $EDITOR $argv $fish_abbreviations
-  end
+  or command -q emacs && set EDITOR emacs # why
+end
+
+function editabbr --description 'Edit your Fish abbreviations file' --wraps $EDITOR
+  $EDITOR $argv $fish_abbreviations
 end
 
 abbr -a ls 'exa'
