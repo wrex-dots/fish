@@ -25,6 +25,8 @@ abbr -a rmrf 'rm -rf'
 abbr -a diff 'colordiff'
 abbr -a dyff 'colordiff -y'
 
+abbr -a jcat 'jq .'
+
 abbr -a iv 'nsxiv -a'
 
 abbr -a gcb 'gcc -ggdb3 -rdynamic -Wall -Wextra -iquote ./include'
